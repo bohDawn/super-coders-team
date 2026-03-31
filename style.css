@@ -20,12 +20,12 @@ body {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
+    .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
 
 .subtitle {
     font-size: 1.2rem;
@@ -75,10 +75,10 @@ h2 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.team-card:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-}
+    .team-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
 
 .leader {
     border-top: 6px solid #ffaa00;
@@ -121,9 +121,9 @@ h2 {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
-    background-color: #1e3c72;
-}
+    .btn:hover {
+        background-color: #1e3c72;
+    }
 
 footer {
     text-align: center;
