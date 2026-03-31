@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме | Ілля Зінов'єв</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 4px;
+        }
+
+        header {
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+            color: var(--primary-color);
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 12px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .tech-stack {
+            font-size: 0.85em;
+            color: var(--accent-color);
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        ul {
+            margin: 5px 0;
+            padding-left: 18px;
+        }
+
+        li {
+            margin-bottom: 4px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .skills-grid { grid-template-columns: 1fr; }
+            .project-title { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Ілля Зінов'єв</h1> [cite: 2, 17]
+        <div class="contact-info">
+            <div>📧 <a href="mailto:ilya10102007@gmail.com">ilya10102007@gmail.com</a> [cite: 3]</div>
+            <div>📞 +380 99 375 3204 [cite: 4]</div>
+            <div>🔗 <a href="https://github.com/Neutronovich">github.com/Neutronovich</a> [cite: 7]</div>
+            <div>📱 Telegram: @Neutronovich [cite: 6]</div>
+            <div>📅 10 жовтня 2007 [cite: 5]</div>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>Профіль</h2> [cite: 18]
+        <p>
+            Вмотивований студент факультету комп'ютерних наук із досвідом в аналізі даних та веб-розробці[cite: 19]. 
+            Володію Python, SQL, C#[cite: 19]. Захоплююся аналізом даних та створенням ефективного програмного забезпечення[cite: 20]. 
+            Легко знаходжу спільну мову з колегами та отримую задоволення від роботи в команді[cite: 21].
+        </p>
+    </section>
+
+    <section class="section">
+        <h2>Навички</h2> [cite: 8]
+        <div class="skills-grid">
+            <div>
+                <strong>Програмування:</strong><br>
+                Python, C#, SQL, JavaScript, HTML/CSS [cite: 9]
+            </div>
+            <div>
+                <strong>Фреймворки та інструменти:</strong><br>
+                ASP.NET Core, Entity Framework, Git [cite: 10, 11]
+            </div>
+            <div>
+                <strong>Бази даних:</strong><br>
+                SQLite, PostgreSQL [cite: 12]
+            </div>
+            <div>
+                <strong>Інше:</strong><br>
+                Візуалізація даних, інтеграція API, вирішення проблем [cite: 13]
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Освіта</h2> [cite: 22]
+        <div class="project">
+            <div class="project-title">Бакалавр комп'ютерних наук (BSc in Computer Science)</div> [cite: 23]
+            <div>Київський національний університет імені Тараса Шевченка, Київ [cite: 23]</div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Проєкти</h2> [cite: 24]
+        
+        <div class="project">
+            <div class="project-title">
+                <span>Monobank Financial Dashboard</span> [cite: 25]
+                <span>2025 – теперішній час</span> [cite: 28]
+            </div>
+            <div class="tech-stack">C#, ASP.NET, SQLite</div> [cite: 26]
+            <ul>
+                <li>Інтегрував Monobank API для отримання даних про особистий рахунок та баланс[cite: 29].</li>
+                <li>Розробив рівень обробки даних для перетворення JSON-відповідей у структуровані об'єкти C# та їх збереження в SQLite[cite: 30, 31].</li>
+                <li>Створив веб-дашборд на ASP.NET Core Razor Pages для відображення історії рахунків у вигляді таблиць[cite: 32].</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Subscription Telegram Bot</div> [cite: 33]
+            <div class="tech-stack">Python, SQLite</div> [cite: 34]
+            <ul>
+                <li>Реалізував платежі через CryptoPay API та автоматизовану обробку підписок[cite: 35].</li>
+                <li>Додав генерацію інвайт-посилань, логування та верифікацію інвойсів[cite: 36].</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Мови</h2> [cite: 14]
+        <ul>
+            <li>Українська [cite: 15]</li>
+            <li>Англійська [cite: 16]</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
